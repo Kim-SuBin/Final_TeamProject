@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     private Socket clientSocket;
     private BufferedReader socketIn;
     private PrintWriter socketOut;
-    private int port = 5001;
+    private int port = 5555;
     private final String ip = "18.220.63.77";
     private MyHandler myHandler;
     private MyThread myThread;
@@ -57,26 +57,26 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         dbHelper = new DBHelper(getApplicationContext(), DB_name, null, 1);
 
-        mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         //서버소켓통신 환경설정
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
-        bluetoothrasberry();//실행코드
-        mThreadConnectedBluetooth.write("hello I'm App");
-
+        mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        bluetoothrasberry();
     }
 
     //실행코드
-    void bluetoothrasberry() {
+    void bluetoothrasberry() {//if문을 while 로 고침
         if (mBluetoothAdapter.isEnabled()) {
             mPairedDevices = mBluetoothAdapter.getBondedDevices();
             //라즈베리파이가 있으면 항상 연결
             System.out.println("check1");
             connectSelectedDevice("raspberrypi");
+            mThreadConnectedBluetooth.write("hello I'm App");//블루투스 소켓 연결시 처음으로 보내지는 데이터
 
         }
     }
+
     //라즈베리파이에서 받아온 데이터값이 DB같으면 실행되는 서버소켓통신코드
     void runserver(){
         //readMessage가 DB의 uuid값과 일치하면
@@ -97,6 +97,8 @@ public class MainActivity extends AppCompatActivity {
         socketOut.println(dbHelper.openDoor());
 //        socketOut.println("1"+"/"+"Kimsubin"+"/"+"010-1111-1111"+"/"+"111111-111111"+"&");
     }
+
+    //서버소켓통신 Thread
     class MyThread extends Thread {
         boolean stop = false;
 
@@ -120,12 +122,18 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+    //서버소켓통신 Handler
     class MyHandler extends Handler {
         @Override
         public void handleMessage(Message servermsg) {
             String a = servermsg.obj.toString();
             String reala = a.substring(0,7);
             if(reala.equals("confirm")) {//보낸 비번이 인증확인이면,
+                //서버 소켓 닫아주기
+                myThread.stopThread();
+                mThreadConnectedBluetooth.cancel();
+                //               bluetoothrasberry();
                 System.out.println(reala);
             }
         }
@@ -155,6 +163,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }//mBluetoothDevice를 통해 createRfcommSocketToServiceRecord(UUID)를 호출하여 mBluetoothSocket을 가져온다. (참고로 여기서 사용된 UUID 값은 시리얼 통신용이다.)
     //그러면 mBluetoothDevice에 연결 될 mBluetoothSocket이 초기화된다. 그 후 connect()를 호출하여 연결을 시작한다.
+
+
     //ConnectedBluetoothThread 쓰레드
     private class ConnectedBluetoothThread extends Thread {
         private final BluetoothSocket mmSocket;
@@ -210,6 +220,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+    //ConnectedBluetoothHandler 핸들러
     private class ConnectedBluetoothHandler extends Handler{
         public void handleMessage( android.os.Message msg) {
             if (msg.what == BT_MESSAGE_READ) {
@@ -222,6 +234,7 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println("블루투스핸들러");
                 String receiveuuid = readMessage.substring(0,36);
                 if (dbHelper.getUuid().equals(receiveuuid)){
+
                     runserver();
                 }
             }
@@ -230,7 +243,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-//다음창으로 넘어가기 버튼
+    //다음창으로 넘어가기 버튼
     public void apart(View v) {
         Intent intent = new Intent(this, Main0Activity.class);
         startActivity(intent);

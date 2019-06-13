@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\aurea\\AndroidStudioProjects\\App_t\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
+            "outputFile": "C:\\Users\\aurea\\AndroidStudioProjects\\Final_TeamProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
             "map": [
                 {
                     "source": "C:\\Users\\aurea\\.gradle\\caches\\transforms-2\\files-2.1\\0053a20a50e5c4c1716361b20b8fdb04\\res\\values-lo\\values-lo.xml",

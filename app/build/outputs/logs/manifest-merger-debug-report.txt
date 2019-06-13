@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\0053a20a50e5c4c1716361b20b8fdb04\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\20a087a31f9c3c6e99638e214e6aabed\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\b5852482cde73eb8d0b83f96d33f2c57\AndroidManifest.xml:17:1-22:12
@@ -31,33 +31,33 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\aurea\.gradle\cache
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\7c61ed5c052430c97d3ce7af15abf99b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\fdf25b1669d61b78ab83affe9b290c5c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\c8a1b92e3d7e645842757a0fc96c8097\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:3:5-31
-		INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:4:5-68
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:4:5-68
 	android:name
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:4:22-65
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:4:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:5:5-74
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:5:5-74
 	android:name
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:5:22-71
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:5:22-71
 application
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:7:5-26:19
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:7:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\20a087a31f9c3c6e99638e214e6aabed\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\20a087a31f9c3c6e99638e214e6aabed\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\9be4ecac518eefeb08efc562d797fd27\AndroidManifest.xml:22:5-94
@@ -67,59 +67,59 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\aurea\.gra
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\9be4ecac518eefeb08efc562d797fd27\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:10:9-42
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:10:9-42
 	android:roundIcon
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.example.app8.Main4Activity
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:14:9-60
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:14:9-60
 	android:name
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:14:19-48
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:14:19-48
 activity#com.example.app8.Main3Activity
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:15:9-51
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:15:9-51
 	android:name
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:15:19-48
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:15:19-48
 activity#com.example.app8.Main2Activity
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:16:9-51
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:16:9-51
 	android:name
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:16:19-48
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:16:19-48
 activity#com.example.app8.Main1Activity
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:17:9-51
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:17:9-51
 	android:name
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:17:19-48
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:17:19-48
 activity#com.example.app8.Main0Activity
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:18:9-51
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:18:9-51
 	android:name
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:18:19-48
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:18:19-48
 activity#com.example.app8.MainActivity
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:19:9-25:20
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:19:19-47
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:19:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:23:27-74
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:27:5-67
+ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:27:5-67
 	android:name
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml:27:22-64
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml:27:22-64
 uses-sdk
-INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\0053a20a50e5c4c1716361b20b8fdb04\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\0053a20a50e5c4c1716361b20b8fdb04\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\20a087a31f9c3c6e99638e214e6aabed\AndroidManifest.xml:5:5-7:41
@@ -174,13 +174,13 @@ MERGED from [android.arch.core:runtime:1.1.1] C:\Users\aurea\.gradle\caches\tran
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\fdf25b1669d61b78ab83affe9b290c5c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\c8a1b92e3d7e645842757a0fc96c8097\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\aurea\.gradle\caches\transforms-2\files-2.1\c8a1b92e3d7e645842757a0fc96c8097\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\aurea\AndroidStudioProjects\App_t\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aurea\AndroidStudioProjects\Final_TeamProject\app\src\main\AndroidManifest.xml
